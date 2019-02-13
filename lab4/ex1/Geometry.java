@@ -25,7 +25,7 @@ public class Geometry{
         
         //      SECTION 2: THE FOLLOWING CODE SEGMENT MUST BE UNCOMMENTED ONLY
         //      FOR EXERCISE 2
-        /*
+
          Geometry demo = new Geometry();
          System.out.println("\nAdding Rectangle, Circle, and Prism objects to the list... ");
          demo.add(r1);
@@ -34,18 +34,37 @@ public class Geometry{
          demo.add(c2);
          demo.add(p1);
          demo.add(p2);
-         
+
          System.out.println("\nShowing information about objects added to the list:");
          demo.showAll();
-         
+
          System.out.println("\nShowing area, perimeter, and volume of objects in the list:");
-         
+
          Iterator <Shape> it = demo.shapes.iterator();
          while(it.hasNext()){
         	demo.calculator(it.next());
          }
-         
-         */
 
 	}
+
+	public Geometry(){
+	    shapes = new TreeSet<Shape>();
+    }
+
+    public void add(Shape s){
+	    shapes.add(s);
+    }
+
+    public void showAll(){
+	    for(Shape s: shapes){
+	        System.out.println(s + "\n");
+        }
+    }
+
+    public void calculator(Shape s){
+	    System.out.println("The area, perimeter, and volume of " + s.getName() + " are: " + String.format(("%.2f"), s.area()) +
+                           ", " + String.format(("%.2f"), s.perimeter()) + ", " + String.format(("%.2f"), s.volume()) + ".");
+    }
+
+
 }

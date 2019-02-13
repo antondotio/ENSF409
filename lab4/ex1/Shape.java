@@ -1,5 +1,5 @@
 
-abstract class Shape {
+abstract class Shape implements Comparable<Shape>{
 	protected Point origin;
 	protected Text name;
 	abstract protected Double area();
@@ -12,6 +12,10 @@ abstract class Shape {
 		this.name = new Text(name);
 	}
 
+	@Override
+	public int compareTo(Shape s){
+		return getName().compareTo(s.getName());
+	}
 
 	protected Point  getOrigin()   {
 		return origin;
