@@ -100,10 +100,10 @@ public class Game implements Constants {
 				result = new RandomPlayer(name, mark);
 				break;
 			case 3:
-				//result = new BlockingPlayer(name, mark);
+				result = new BlockingPlayer(name, mark);
 				break;
 			case 4:
-				//result = new SmartPlayer(name, mark);
+				result = new SmartPlayer(name, mark);
 				break;
 			default:
 				System.out.print ( "\nDefault case in switch should not be reached.\n"

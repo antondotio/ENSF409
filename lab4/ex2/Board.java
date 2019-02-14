@@ -35,6 +35,16 @@ public class Board implements Constants {
 		}
 	}
 
+	public Board(Board b){
+		this.markCount = b.markCount;
+		this.theBoard = new char[3][];
+		for (int i = 0; i < 3; i++) {
+			this.theBoard[i] = new char[3];
+			for (int j = 0; j < 3; j++)
+				this.theBoard[i][j] = b.theBoard[i][j];
+		}
+	}
+
 	/**
 	 * Returns the mark placed in the wanted element 
 	 * @param row	index of row
@@ -189,6 +199,10 @@ public class Board implements Constants {
 		for (int j = 0; j < 3; j++)
 			System.out.print("|     ");
 		System.out.println("|");
+	}
+
+	public int getMarkCount(){
+		return  markCount;
 	}
 
 }
