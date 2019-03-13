@@ -7,7 +7,7 @@ public class RandomPlayer extends Player {
     @Override
     protected void play(){
         while(true){
-            System.out.println("RandomPlayer " + name +" will now make a move");
+            System.out.println(name +" will now make a move");
             makeMove();
             if(board.xWins() == true){
                 board.display();
