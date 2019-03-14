@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9186a5db-f148-4446-b171-3e5355be4608" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../lab4/ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/ex1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/ex2/RandomPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/ex2/RandomPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/ex2/out/production/ex2/RandomPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/ex2/out/production/ex2/RandomPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../umlDiagram.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../umld.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../umld.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/task1/RandomNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/task1/RandomThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/task2/RandomNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/task2/RandomThread.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +19,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RandomThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="423">
               <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,12 +134,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552074951934</updated>
       <workItem from="1552074956514" duration="9194000" />
-      <workItem from="1552405488183" duration="2092000" />
+      <workItem from="1552405488183" duration="2690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11286000" />
+    <option name="totallyTimeSpent" value="11884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="7" />
@@ -185,7 +182,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/RandomThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="423">
           <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />

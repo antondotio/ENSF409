@@ -48,7 +48,7 @@ public class RandomThread implements Runnable{
         int sum = (((RandomThread) ra).getValue() + ((RandomThread) rb).getValue() + ((RandomThread) rc).getValue() +
                     ((RandomThread) rd).getValue() + ((RandomThread) re).getValue());
 
-        System.out.println(sum);
+        System.out.println("The sum is " + sum);
 
 
     }
