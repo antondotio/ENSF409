@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd79f8a-6593-4b8c-ae0f-a7757d6856a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../lab4/ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/ex1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/ex2/RandomPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/ex2/RandomPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/ex2/out/production/ex2/RandomPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/ex2/out/production/ex2/RandomPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../umlDiagram.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../umld.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../umld.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ex3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +16,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Demo5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-1350">
               <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
@@ -96,7 +91,7 @@
     <option name="x" value="-14" />
     <option name="y" value="35" />
     <option name="width" value="1848" />
-    <option name="height" value="1708" />
+    <option name="height" value="1710" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,7 +143,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552283322412" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ex2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -188,16 +183,17 @@
       <updated>1552275362514</updated>
       <workItem from="1552275365752" duration="6144000" />
       <workItem from="1552405458864" duration="22000" />
+      <workItem from="1552623582376" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6166000" />
+    <option name="totallyTimeSpent" value="6792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2527979" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25608954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -206,7 +202,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25084746" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,14 +230,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Demo5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-1350">
           <caret column="2" selection-start-column="2" selection-end-column="2" />
-          <folding>
-            <element signature="e#380#386#0" expanded="true" />
-            <element signature="e#665#674#0" expanded="true" />
-            <element signature="e#961#970#0" expanded="true" />
-            <element signature="e#2199#2206#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
