@@ -3,7 +3,7 @@ class Node <TYPE>
 {
 	Integer keyM;
 	TYPE itemM;
-	Node nextM;
+	Node<TYPE> nextM;
 	
 	public Node()
 	{
@@ -12,7 +12,7 @@ class Node <TYPE>
 		nextM  = null;
 	
 	}
-	public Node(TYPE itemA, Integer keyA, Node  nextA)
+	public Node(TYPE itemA, Integer keyA, Node<TYPE>  nextA)
 	
 	{
 		itemM = itemA ;
