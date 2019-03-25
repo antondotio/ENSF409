@@ -57,14 +57,12 @@ public class Board implements Constants {
 	 * checks if the board is full
 	 * @return	the markCount = to 9;
 	 */
-	public boolean isFull() {
-		if(markCount == 9){
-			sendStringln("GAME OVER: Game ended in a tie");
-			sendStringln("QUIT");
-			return true;
-		}
-		else
-			return false;
+	public boolean isFull(){
+		return markCount == 9;
+	}
+
+	public void printTie(){
+		sendStringln("GAME OVER: Game ended in a tie");
 	}
 
 	/**
@@ -72,13 +70,14 @@ public class Board implements Constants {
 	 * @return returns whether the player has won or not
 	 */
 	public boolean xWins() {
-		if (checkWinner(LETTER_X) == 1) {
-			sendStringln("GAME OVER: " + LETTER_X + " is the winner.");
-          	sendStringln("QUIT");
+		if (checkWinner(LETTER_X) == 1)
 			return true;
-		}
 		else
 			return false;
+	}
+
+	public void printXWin(){
+		sendStringln("GAME OVER: " + LETTER_X + " is the winner.");
 	}
 
 	/**
@@ -86,13 +85,18 @@ public class Board implements Constants {
 	 * @return returns whether the player has won or not
 	 */
 	public boolean oWins() {
-		if (checkWinner(LETTER_O) == 1) {
-			sendStringln("GAME OVER: " + LETTER_O + " is the winner.");
-			sendStringln("QUIT");
+		if (checkWinner(LETTER_O) == 1)
 			return true;
-		}
 		else
 			return false;
+	}
+
+	public void printOWin(){
+		sendStringln("GAME OVER: " + LETTER_O + " is the winner.");
+	}
+
+	public void exit(){
+		sendStringln("QUIT");
 	}
 
 	/**

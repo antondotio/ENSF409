@@ -55,11 +55,6 @@ public class Player implements Constants{
         socketOut.flush();
     }
 
-    private void sendStringOpponent(String toSend){
-        opponent.getSocketOut().println(toSend);
-        socketOut.flush();
-    }
-
     public void getPlayerName(){
         try{
             sendString("Please enter the name of '" + mark + "' player: \0");
@@ -81,20 +76,21 @@ public class Player implements Constants{
     public void play() throws IOException{
         while(true){
             makeMove();
+            board.display();
             if(board.xWins() == true){
-                board.display();
+                board.printXWin();
                 break;
             }else if(board.oWins() == true){
-                board.display();
+                board.printOWin();
                 break;
             }else if(board.isFull() == true){
-                board.display();
+                board.printTie();
                 break;
             }
-            board.display();
             opponent.play();
         }
         System.out.println("Game ended...");
+        board.exit();
         System.exit(1);
     }
     
