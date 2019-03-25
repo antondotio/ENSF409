@@ -83,21 +83,12 @@ public class Player implements Constants{
             makeMove();
             if(board.xWins() == true){
                 board.display();
-                sendString("GAME OVER: " + name + " is the winner.");
-                sendStringOpponent("GAME OVER: " + opponent.getName() + " is the winner.");
-                sendString("QUIT");
                 break;
             }else if(board.oWins() == true){
                 board.display();
-                sendString("GAME OVER: " + name + " is the winner.");
-                sendStringOpponent("GAME OVER: " + opponent.getName() + " is the winner.");
-                sendString("QUIT");
                 break;
             }else if(board.isFull() == true){
                 board.display();
-                sendString("GAME OVER: game ended in a tie");
-                sendStringOpponent("GAME OVER: game ended in a tie");
-                sendString("QUIT");
                 break;
             }
             board.display();
