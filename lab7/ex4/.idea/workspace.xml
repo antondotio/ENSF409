@@ -28,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2243">
+            <state relative-caret-position="-815">
               <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="120">
               <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-136">
               <caret line="89" column="41" lean-forward="true" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Referee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="-68">
               <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
                 <element signature="e#1347#1348#0" expanded="true" />
@@ -98,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
+            <state relative-caret-position="-153">
               <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -167,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553495786604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553496064493" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ex3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -217,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553373833230</updated>
-      <workItem from="1553373834565" duration="21576000" />
+      <workItem from="1553373834565" duration="21853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21576000" />
+    <option name="totallyTimeSpent" value="21853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -323,9 +323,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Referee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="-68">
           <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
             <element signature="e#1347#1348#0" expanded="true" />
@@ -336,19 +353,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-136">
           <caret line="89" column="41" lean-forward="true" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -366,7 +373,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="120">
           <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -376,16 +383,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2243">
+        <state relative-caret-position="-815">
           <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
