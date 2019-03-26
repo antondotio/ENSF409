@@ -9,8 +9,8 @@ import java.net.Socket;
  * and also where the game moves are executed.
  * 
  * @author Antonio Santos
- * @version 1.0
- * @since January 31, 2019
+ * @version 2.0
+ * @since March 25, 2019
  */
 public class Player implements Constants{
     /**
@@ -29,8 +29,13 @@ public class Player implements Constants{
      * the mark of the player
      */
     private char mark;
-    private Socket aSocket;
+    /**
+     * For receiving inputs from client
+     */
     private BufferedReader socketIn;
+    /**
+     * For writing to the client
+     */
     private PrintWriter socketOut;
 
     /**
@@ -39,7 +44,6 @@ public class Player implements Constants{
      * @param mark mark to be used by the player
      */
     public Player(Socket aSocket, char mark){
-        this.aSocket = aSocket;
         this.mark = mark;
 
         try{
@@ -50,11 +54,18 @@ public class Player implements Constants{
         }
     }
 
+    /**
+     * Sends a string to be printed to terminal of client
+     * @param toSend string to be sent
+     */
     private void sendString(String toSend){
         socketOut.println(toSend);
         socketOut.flush();
     }
 
+    /**
+     * Gets the name of the player
+     */
     public void getPlayerName(){
         try{
             sendString("Please enter the name of '" + mark + "' player: \0");
@@ -133,6 +144,14 @@ public class Player implements Constants{
         board.addMark(row, col, mark);
     }
 
+    /**
+     * Checks whether the given row or column are valid.
+     * @param row row to put the mark in
+     * @param col column to put the mark in
+     * @param rStr row input of user
+     * @param cStr column input of user
+     * @return a boolean of whether the input is acceptable or not
+     */
     private boolean isAcceptable(int row, int col, String rStr, String cStr){
         boolean acceptable = true;
         if(rStr == null || cStr == null){
@@ -165,13 +184,5 @@ public class Player implements Constants{
      */
     public void setBoard(Board board){
         this.board = board;
-    }
-
-    public PrintWriter getSocketOut() {
-        return socketOut;
-    }
-
-    public String getName() {
-        return name;
     }
 }

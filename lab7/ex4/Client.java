@@ -4,12 +4,38 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+/**
+ * The client in the program and will
+ * handle the outputs to the terminal for
+ * each player.
+ *
+ * @author Antonio Santos
+ * @version 1.0
+ * @since March 25, 2019
+ */
 public class Client {
+    /**
+     * For writing to other classes
+     */
     private PrintWriter socketOut;
+    /**
+     * To connect the client to server
+     */
     private Socket aSocket;
+    /**
+     * For reading inputs from the keyboard
+     */
     private BufferedReader stdIn;
+    /**
+     * For reading inputs from other classes in the program
+     */
     private BufferedReader socketIn;
 
+    /**
+     * Constructor for the client class
+     * @param serverName the server name
+     * @param portNumber the port number
+     */
     public Client(String serverName, int portNumber){
         try{
             aSocket = new Socket(serverName, portNumber);
@@ -21,6 +47,11 @@ public class Client {
         }
     }
 
+    /**
+     * To connect with the server and handles the
+     * outputs to the terminal and inputs from the
+     * user and other classes in the program
+     */
     public void communicateWithServer(){
         try{
             while(true){

@@ -4,12 +4,40 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+/**
+ * The client in this simple Client-Server application.
+ * The purpose of this application is to receive
+ * either the current date or current time depending on
+ * what the user asks for
+ * @author Antonio Santos
+ * @version 1.0
+ * @since March 25, 2019
+ */
 public class DateClient {
+    /**
+     * The socket to set up the connection
+     * between client and server
+     */
     private Socket aSocket;
+    /**
+     * For writing to the server
+     */
     private PrintWriter socketOut;
+    /**
+     * For reading from the keyboard
+     */
     private BufferedReader stdIn;
+    /**
+     * For receiving the inputs from the server
+     */
     private BufferedReader socketIn;
 
+    /**
+     * The constructor for the client class
+     * and sets the class variables.
+     * @param serverName  the server name
+     * @param portNumber  the port number
+     */
     public DateClient(String serverName, int portNumber){
         try{
             System.out.println(serverName + portNumber);
@@ -22,6 +50,9 @@ public class DateClient {
         }
     }
 
+    /**
+     * Starts the program.
+     */
     public void communicate(){
         String line = "";
         String response = "";
