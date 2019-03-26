@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd79f8a-6593-4b8c-ae0f-a7757d6856a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex3/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8bd79f8a-6593-4b8c-ae0f-a7757d6856a5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Demo5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1350">
+            <state>
               <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
@@ -91,7 +88,7 @@
     <option name="x" value="-14" />
     <option name="y" value="35" />
     <option name="width" value="1848" />
-    <option name="height" value="1710" />
+    <option name="height" value="1712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,16 +181,17 @@
       <workItem from="1552275365752" duration="6144000" />
       <workItem from="1552405458864" duration="22000" />
       <workItem from="1552623582376" duration="626000" />
+      <workItem from="1553177841538" duration="180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6792000" />
+    <option name="totallyTimeSpent" value="6972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25608954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25938118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -230,7 +228,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Demo5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
+        <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
