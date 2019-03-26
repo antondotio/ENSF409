@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23d6515b-df3b-4be0-9021-8c8200c3c22e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../inClassEx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../inClassEx/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex4/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex4/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex4/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex4/Player.class" afterDir="false" />
-    </list>
+    <list default="true" id="23d6515b-df3b-4be0-9021-8c8200c3c22e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="694" />
     <option name="y" value="43" />
     <option name="width" value="975" />
@@ -171,8 +161,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553534454092" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553534521012" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab6/ex1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -222,16 +212,15 @@
       <option name="presentableId" value="Default" />
       <updated>1553373833230</updated>
       <workItem from="1553373834565" duration="21853000" />
-      <workItem from="1553532979414" duration="1464000" />
+      <workItem from="1553532979414" duration="1921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23317000" />
+    <option name="totallyTimeSpent" value="23774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2508229" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -242,7 +231,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32881355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32881355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
