@@ -2,7 +2,6 @@
 
 //STUDENTS SHOULD ADD CLASS COMMENTS, METHOD COMMENTS, FIELD COMMENTS 
 
-import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
@@ -12,8 +11,8 @@ import java.io.PrintWriter;
  * board is full.
  *
  * @author Antonio Santos
- * @version 1.0
- * @since January 31, 2019
+ * @version 2.0
+ * @since March 25, 2019
  */
 public class Board implements Constants {
 	/**
@@ -24,7 +23,13 @@ public class Board implements Constants {
 	 * the number of marks on the board
 	 */
 	private int markCount;
+	/**
+	 * For writing to terminal of xPlayer
+	 */
 	private PrintWriter aSocketOut;
+	/**
+	 * For writing to terminal of oPlayer
+	 */
 	private PrintWriter bSocketOut;
 
 
@@ -61,6 +66,9 @@ public class Board implements Constants {
 		return markCount == 9;
 	}
 
+	/**
+	 * Declares that there has  been a tie
+	 */
 	public void printTie(){
 		sendStringln("GAME OVER: Game ended in a tie");
 	}
@@ -76,6 +84,9 @@ public class Board implements Constants {
 			return false;
 	}
 
+	/**
+	 * Declares that xPlayer is the winner
+	 */
 	public void printXWin(){
 		sendStringln("GAME OVER: " + LETTER_X + " is the winner.");
 	}
@@ -91,10 +102,16 @@ public class Board implements Constants {
 			return false;
 	}
 
+	/**
+	 * Declares that oPlayer is the player
+	 */
 	public void printOWin(){
 		sendStringln("GAME OVER: " + LETTER_O + " is the winner.");
 	}
 
+	/**
+	 * Will cause the clients to shut down
+	 */
 	public void exit(){
 		sendStringln("QUIT");
 	}
@@ -215,12 +232,23 @@ public class Board implements Constants {
 		sendStringln("|");
 	}
 
+	/**
+	 * Sends string to the terminals of both players
+	 * prints to next line every time it is called
+	 * @param toSend string to send
+	 */
 	public void sendStringln(String toSend){
 		aSocketOut.println(toSend);
 		aSocketOut.flush();
 		bSocketOut.println(toSend);
 		bSocketOut.flush();
 	}
+
+	/**
+	 * Sends string to the terminals of both players
+	 * prints to same line every time it is called
+	 * @param toSend string to send
+	 */
 	public void sendString(String toSend){
 		aSocketOut.print(toSend);
 		aSocketOut.flush();

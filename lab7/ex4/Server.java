@@ -5,14 +5,49 @@ import java.net.Socket;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
 
+/**
+ * The server in this program and will be
+ * in charge of setting the players
+ * the referee and the game. The starting
+ * point of the program.
+ *
+ * @author Antonio Santos
+ * @version 1.0
+ * @since March 25, 2019
+ */
 public class Server {
+    /**
+     * Server socket to connect the server
+     * and the client
+     */
     private ServerSocket serverSocket;
+    /**
+     * socket for xPlayer client
+     */
     private Socket aSocket;
+    /**
+     * socket for oPlayer client
+     */
     private Socket bSocket;
+    /**
+     * For executing the game and allowing
+     * more than one client to connect to server
+     */
     private ExecutorService pool;
+    /**
+     * For output to terminal of xPlayer
+     */
     private PrintWriter aSocketOut;
+    /**
+     * For output to terminal of oPlayer
+     */
     private PrintWriter bSocketOut;
 
+    /**
+     * Server class constructor
+     * Sets the server and executor server.
+     * @param portNumber port number to connect to
+     */
     public Server(int portNumber){
         try{
             serverSocket = new ServerSocket(portNumber);
@@ -22,6 +57,11 @@ public class Server {
         }
     }
 
+    /**
+     * Sets the players, referee and game.
+     * Begins the game.
+     * @throws IOException
+     */
     public void communicateWithClient() throws IOException{
         try {
             while(true) {

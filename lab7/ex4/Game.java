@@ -1,18 +1,15 @@
 
-import javax.naming.ldap.SortKey;
 import java.io.*;
-import java.net.Socket;
 
 //STUDENTS SHOULD ADD CLASS COMMENTS, METHOD COMMENTS, FIELD COMMENTS 
 
 /** 
  * Provides data fields and methods to create a tic-tac-toe game 
  * in a Java application
- * This class is the starting point of the program
- * 
+ *
  * @author Antonio Santos
- * @version 1.0
- * @since January 31, 2019
+ * @version 2.0
+ * @since March 25, 2019
 */
 public class Game implements Constants, Runnable {
 	/**
@@ -42,7 +39,10 @@ public class Game implements Constants, Runnable {
 		theRef.getoPlayer().setBoard(theBoard);
     }
 
-    @Override
+	/**
+	 * Tells the referee to begin the game
+	 */
+	@Override
     public void run(){
     	try {
 			theRef.runTheGame();

@@ -4,8 +4,8 @@ import java.io.IOException;
  * This class will be in charge of setting the board and setting the players.
  * 
  * @author Antonio Santos
- * @version 1.0
- * @since January 31, 2019
+ * @version 2.0
+ * @since March 25, 2019
  */
 public class Referee{
     /**
@@ -64,10 +64,18 @@ public class Referee{
         this.xPlayer = xPlayer;
     }
 
+    /**
+     * gets the player that will use the X mark
+     * @return the player that will use the X mark
+     */
     public Player getxPlayer() {
         return xPlayer;
     }
 
+    /**
+     * gets the player that will use the O mark
+     * @return the player that will use the O mark
+     */
     public Player getoPlayer() {
         return oPlayer;
     }

@@ -5,12 +5,38 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * This class will be the server in this simple Client-Server
+ * application. This application will check whether an input
+ * string is a palindrome or not.
+ * It will handle the checking of the palindromes.
+ *
+ * @author Antonio Santos
+ * @version 1.0
+ * @since March 25, 2019
+ */
 public class Server {
+    /**
+     * The server socket
+     */
     ServerSocket serverSocket;
+    /**
+     * socket to connect server and client
+     */
     Socket aSocket;
+    /**
+     * For sending outputs to client
+     */
     PrintWriter out;
+    /**
+     * For receiving input from the client
+     */
     BufferedReader in;
 
+    /**
+     * Constructor for the server class. Sets the server socket to
+     * connect to the same port as the client.
+     */
     public Server(){
         try{
             serverSocket = new ServerSocket(8099);
@@ -21,6 +47,9 @@ public class Server {
         System.out.println("Server is running");
     }
 
+    /**
+     * Starts the server
+     */
     public void startApp(){
         String line = null;
         while(true){
@@ -33,6 +62,11 @@ public class Server {
         }
     }
 
+    /**
+     * checks whether the string is a palindrome or not and
+     * gives the result back to the client
+     * @param s string to be checked
+     */
     public void checkPalindrome(String s){
         int front = 0;
         int back = s.length() - 1;

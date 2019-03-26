@@ -10,6 +10,7 @@ class MusicRecord implements Serializable
 		private String songName;
 		private String singerName;
 		private double purchase_price;
+		private static final long serialVersionUID = 1L;
 
         /**
          * A default constructor that builds a record with blank data
