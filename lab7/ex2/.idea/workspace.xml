@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10054df2-f15e-4ff9-94c5-cd60c5f784d5" name="Default Changelist" comment="" />
+    <list default="true" id="10054df2-f15e-4ff9-94c5-cd60c5f784d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../lab6/ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab6/ex1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/out/production/ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/out/production/ex1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/out1/production/ex3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex3/out1/production/ex3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex4/out/production/ex4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4/out/production/ex4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex4/out/production/ex4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4/out/production/ex4/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DateClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
+            <state relative-caret-position="882">
               <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
             </state>
           </provider>
@@ -22,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DateServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="585">
+              <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -48,10 +61,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="695" />
-    <option name="y" value="44" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="694" />
+    <option name="y" value="43" />
+    <option name="width" value="975" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -79,7 +92,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553570381141" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ex3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -136,17 +149,18 @@
       <workItem from="1553047148327" duration="4011000" />
       <workItem from="1553218612267" duration="43000" />
       <workItem from="1553565878323" duration="2602000" />
+      <workItem from="1553570810675" duration="412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6656000" />
+    <option name="totallyTimeSpent" value="7068000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25608954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -193,15 +207,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DateClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="882">
           <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DateServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="585">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
         </state>
       </provider>
     </entry>
